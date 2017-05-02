@@ -69,11 +69,11 @@ function gotData(data) {
       li1.parent(list1);
       listItems1.push(li1);
     }
-    if (endls.Location == "A1-002\r\n"){
+    /*if (endls.Location == "A1-002\r\n"){
       var li2 = createElement('li', 'ID:'+key +'   '+'RSSI:'+ endls.RSSI+'   '+ 'HB:💛'+endls.HB +'   '+ 'Time:'+endls.Time);
       li2.parent(list2);
       listItems2.push(li2);
-    }
+    }*/
   }
 }
 

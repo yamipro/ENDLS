@@ -28,7 +28,7 @@ function setup() {
 
 function loadFirebase() {
   var t = new Date();
-  var r = "live/20170517";// " + t.getFullYear().toString() + '0' + (t.getMonth()+1).toString().slice(-2) + t.getDate().toString().slice(-2);
+  var r = "live/20170519";// " + t.getFullYear().toString() + '0' + (t.getMonth()+1).toString().slice(-2) + t.getDate().toString().slice(-2);
   var ref = database.ref(r);//'0' + t.getDate().toString().slice(-2));
   var topo = database.ref("topo");
   //topo.remove();
